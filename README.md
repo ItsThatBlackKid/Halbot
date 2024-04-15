@@ -25,3 +25,6 @@ A chat agent designed to help RMIT CS Students find information about their prog
 ## FAQ
 Q: How do I install yarn? 
 >`npm i -g yarn`
+
+Q: How do I instlal `node`?
+> Use [nvm](https://github.com/nvm-sh/nvm) or follow the official `node` [docs](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)
