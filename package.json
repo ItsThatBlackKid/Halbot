@@ -5,13 +5,17 @@
   "repository": "git@github.com:ItsThatBlackKid/Halbot.git",
   "author": "Sao <sheku.kanneh12@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"yarn workspace frontend dev\"  \"yarn workspace server dev\""
+  },
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
-    "@types/node": "^20.12.7"
+    "@types/node": "^20.12.7",
+    "concurrently": "^8.2.2"
   },
   "private": true,
   "workspaces": [
