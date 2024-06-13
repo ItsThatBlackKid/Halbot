@@ -6,7 +6,8 @@
   "author": "Sao <sheku.kanneh12@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "concurrently \"yarn workspace frontend dev\"  \"yarn workspace server dev\""
+    "dev": "concurrently \"yarn workspace frontend dev\"  \"yarn workspace server dev\"",
+    "build": "yarn workspace frontend build"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
